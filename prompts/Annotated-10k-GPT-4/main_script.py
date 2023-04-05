@@ -7,7 +7,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-API_KEY = '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'
+API_KEY = ''
 openai.api_key = API_KEY
 model_id = 'gpt-3.5-turbo'
 
