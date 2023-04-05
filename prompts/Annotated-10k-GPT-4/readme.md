@@ -15,4 +15,4 @@
 4. Open the command prompt or anaconda prompt (Wherever you have installed the libraries), change directory to the folder where the downloaded files are present, run rerun.bat
 
 
-#### updated_10k.json is the updated file with annotations (GPT-4)
+#### Note - updated_10k.json is the updated file with annotations (GPT-4)
