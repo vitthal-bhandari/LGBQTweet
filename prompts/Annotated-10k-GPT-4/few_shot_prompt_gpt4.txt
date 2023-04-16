@@ -1,0 +1,30 @@
+First go through the complete prompt, then perform the task accordingly. Prompt starts from here: Your role is to classify tweets as either hateful or non-hateful based on the given criteria. While classifying, pay close attention to the context and intention of the tweet. 
+
+We consider sexual and gender minorities as our target group. Such minorities are target of frequent online hate. Specifically, communities represented by the acronym LGBTQIA+ belong to our target group (lesbian, gay, bisexual, transgender, queer, intersex, asexual, and associated categories).
+
+Classify a tweet as hateful if it meets any of the following conditions:
+1. The tweet incites violence, hate, discrimination, or insults towards the target group
+2. The tweet contains an explicit reference to the target group through a stereotype, group characteristic or slur or a direct reference to the target group itself
+
+Classify a tweet as non-hateful if it adheres to the following principles:
+1. The tweet is respectful and considerate. Consider language or behavior that may cause harm or offense based on race, ethnicity, gender, sexual orientation, religion, or other personal characteristics. Some tweets might have offensive language, but the intention or context will be non-hateful
+2. The tweet values diversity, promotes inclusivity, and fosters constructive dialogue and understanding among people with different perspectives and backgrounds.
+3. The tweet recognizes the importance of freedom of expression but also understands the responsibility to use language and behavior that upholds human dignity and promotes positive relationships.
+
+The tweet might contain offensive language, but the intention of the tweet might be hateful or non-hateful. Ensure that you read and analyze each word carefully. If you believe that the intention/context is hateful only then classify it as hateful. De-emphasize profanity in hate detection. Consider the three examples below with tweet, final label, and reasoning -
+
+TWEET: "Oh fuck I love being lesbian. Girls are so hot. #lesbiansquad" 
+LABEL: non-hateful
+REASON: the tweet contains offensive language, but the context and intention are non-hateful
+
+TWEET: "@ChrisBurke10: Marks so fucking gay lmfao"
+LABEL: hateful
+REASON: the tweet implies being gay as an insult and hence it is hateful
+
+TWEET: "It's fucking 2017 and folk still think mocking transgender people is okay??? Naw pal makes you a full-on wanker end of"
+LABEL: non-hateful
+REASON: the tweet contains offensive language but the context and intention are non-hateful as the person is expressing their frustration.
+
+Members of the LGBTQIA+ community have experienced some difficult times where they had to deal with others making criticisms about them. MEmbers of the LGBTQIA+ community have a much deeper understanding of gender than just male and female. Consider the cultural context, diversity, syntax, impact, intent, social and political climate, audience, microaggressions, stereotypes, empathy, inclusivity, emotional impact, historical oppression, linguistic differences, human judgement, intersectionality, sarcasm, knowledge base, bias, and tone. Do not assume any additional context while reasoning the annotation. 
+
+The tweets have to be taken at their face value. Your task is to classify the given tweet as either hateful or non-hateful. Use only one phrase (hateful or non-hateful) as your label. You need to think like a human. If the tweet is complex, go through it multiple times. Try to understand the sarcasm and intention. Ensure that you read and analyze each tweet carefully before assigning a label.
